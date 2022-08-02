@@ -264,7 +264,7 @@ footer hr {
    }
 
 
-   button.btn {
+   button.btn, button.btn2 {
        display: block;
        margin: auto;
        justify-content: center;
