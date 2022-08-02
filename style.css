@@ -6,12 +6,14 @@
 * {
    box-sizing: border-box;
    font-family: Averta, sans-serif;
-   /*overflow: hidden;*/
 }
 
 a {
    color: #E7332B;
    text-decoration: none;
+}
+span{
+color: #E7332B;
 }
 
 a:hover{
@@ -27,24 +29,18 @@ a:hover{
    max-width: 1240px !important;
 }
 
-.center-image {
+.image {
    margin: auto;
    display: flex;
    padding-top: 69px;
    margin-bottom: 69px;
 }
 
-.center-image img {
+.image img {
    margin: auto;
 }
 
-/* .logo-img {
-   margin-top: 69px;
-   margin-left: 100px;
-   margin-bottom: 143px;
-} */
-
-.hero-container {
+.container {
    height: 800px;
    background-image: url("../img/hero-bg.svg");
    background-size: cover;
@@ -79,9 +75,10 @@ a:hover{
    margin-top: 92px;
 }
 
-.my-btn {
+.btn2 {
    padding: 11px 28px;
    border: 1px solid #E7332B;
+   border-radius: 5px;
 }
 
 .btn-red {
@@ -95,17 +92,17 @@ a:hover{
    color: #E7332B;
 }
 
-.btn-red-outline {
+.btn-outline {
    background-color: #fff;
    color: #E7332B;
 }
 
-.btn-red-outline:hover {
+.btn-outline:hover {
    background-color: #E7332B;
    color: #fff;
 }
 
-section.programs {
+main.event {
    background-color: #fff;
    overflow: hidden;
 }
@@ -121,7 +118,7 @@ section.programs {
    margin-top: 141px;
 }
 
-.program-content p.slogan {
+.program-content p.tagline {
    font-size: 24px;
    line-height: 40px;
    text-align: center;
@@ -133,15 +130,11 @@ section.programs {
 
 .container-fluid {
    margin: 0 auto;
-   /*max-width: 1240px;*/
    text-align: center;
-   /*border: 1px solid red;*/
 }
 
 .program-card {
-   /*height: 511px;*/
    width: 100%;
-   /*border: 1px solid red;*/
    background-color: #FFFAFA;
    padding: 61px 47px 82px 36px;
    text-align: justify-all;
@@ -249,11 +242,11 @@ footer hr {
 
 @media (max-width: 768px) {
 
-   .hero-container {
+   .container {
        height: auto;
    }
 
-   img.logo-img {
+   img.logo{
        display: block;
        padding-top: 50px;
        margin: auto;
@@ -271,7 +264,7 @@ footer hr {
    }
 
 
-   button.my-btn {
+   button.btn {
        display: block;
        margin: auto;
        justify-content: center;
