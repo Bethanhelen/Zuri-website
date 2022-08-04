@@ -38,6 +38,9 @@ nav{
     display: flex;
     align-items: center;
 }
+nav a{
+color: #585858;
+}
 .header-contents ul{
     display: block;
     list-style-type: disc;
@@ -165,14 +168,73 @@ div.line2{
 }
 
 /* styling Impact */
+.impact-section1 p{
+  font-size: 10px;
+  font-weight: bold;
+}
+p.country{
+  font-size: 8px;
+  color: #585858;
+}
 .impact-section1{
     background-image: url(https://talent.zuri.team/static/media/bgsection2.063bd869082548bafa74.png);
 }
 /* Styling Why us */
+.talent-skills,
+.talent-work{
+  margin-left: 10%;
+}
+.talent-skills h6{
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+.talent-skills ul, .talent-work ul{
+  list-style-type: none;
+  margin-bottom: 10%;
+}
+.talent-skills ul li,
+.talent-work ul li{
+  display: inline-block;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 16px;
+  color: #585858;
+  padding: 5px 15px;
+  background: #fff;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+span{
+  color: #e7332b;
+}
+.footer-hire{
+    background-color: #e7332b;
+    border: none;
+    border-radius: 0 0 8px 0;
+    color: #fff;
+    margin-right: 15px;
+    padding: 11px 35px;
+    line-height: 19px;
+
+}
+.footer-pool{
+    background-color: #585858;
+    border: none;
+    border-radius: 0 0 8px 0;
+    color: #fff;
+    padding: 11px 35px;
+    line-height: 19px;
+}
+.why-us-section3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+}
 
 /* styling the footer */
 footer{
-    background-color: #000;
+background-color: #000;
     padding-top: 80px;
     display: block;
 }
@@ -194,4 +256,7 @@ div.social-media{
     display: flex;
     justify-content: space-between;
     color: #fff;
+}
+footer p.mail{
+  color: #fff;
 }
