@@ -194,6 +194,9 @@ p.country{
   margin-top: 10%;
   margin-bottom: 2%;
 }
+.talent-work h6{
+  margin-bottom: 2%;
+}
 .talent-skills ul, .talent-work ul{
   list-style-type: none;
   margin-bottom: 10%;
