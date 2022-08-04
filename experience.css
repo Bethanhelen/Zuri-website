@@ -168,13 +168,19 @@ div.line2{
 }
 
 /* styling Impact */
+.impact-section1 h6{
+  margin: 0% 0% 0% 10%;
+  padding: 10% 0% 0% 0%;
+}
 .impact-section1 p{
   font-size: 10px;
   font-weight: bold;
+  margin-left: 10%;
 }
 p.country{
   font-size: 8px;
   color: #585858;
+  margin-left: 10%;
 }
 .impact-section1{
     background-image: url(https://talent.zuri.team/static/media/bgsection2.063bd869082548bafa74.png);
@@ -229,9 +235,33 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20%;
+    padding-bottom: 20%;
+    flex-wrap: wrap;
 }
+/*why hire*/
+#why-us{
+background-image: url(https://talent.zuri.team/static/media/bgsection2.063bd869082548bafa74.png);
+}
+.why-hire{
+  text-align: center;
+  padding: 5% 0%;
+}
+.why-us-sub1,.why-us-sub2,.why-us-sub3,.why-us-sub4,.why-us-sub5{
+  background-color: #fff;
+  margin: 20px 20px;
 
+}
+.why-us-sub1 p,.why-us-sub2 p,.why-us-sub3 p,.why-us-sub4 p,.why-us-sub5 p{
+  text-align: center;
+  color: #585858;
+  padding: 30px;
+  font-size: 10px;
+}
+.why-us-section1, .why-us-section2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* styling the footer */
 footer{
 background-color: #000;
@@ -246,6 +276,7 @@ background-color: #000;
 .footer-content1{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 div.social-media{
     display: flex;
