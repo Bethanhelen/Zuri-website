@@ -64,6 +64,9 @@ color: #585858;
     border: 0px;
     color:#fff;
 }
+nav ul a.active{
+  border-bottom: 2px solid #e7332b;
+}
 
 /* styling the home */
 #home{
