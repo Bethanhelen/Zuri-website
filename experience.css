@@ -256,13 +256,17 @@ background-image: url(https://talent.zuri.team/static/media/bgsection2.063bd8690
 .why-us-sub1,.why-us-sub2,.why-us-sub3,.why-us-sub4,.why-us-sub5{
   background-color: #fff;
   margin: 20px 20px;
-
 }
 .why-us-sub1 p,.why-us-sub2 p,.why-us-sub3 p,.why-us-sub4 p,.why-us-sub5 p{
   text-align: center;
   color: #585858;
   padding: 30px;
   font-size: 10px;
+}
+.why-us-sub1 img,.why-us-sub2 img,.why-us-sub3 img,.why-us-sub4 img,.why-us-sub5 img{
+  position: relative;
+  top: 15px;
+  left: 35%;
 }
 .why-us-section1, .why-us-section2{
   display: flex;
