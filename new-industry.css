@@ -1,0 +1,52 @@
+@font-face {
+   font-family: Averta;
+   src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+   box-sizing: border-box;
+   font-family: Averta, sans-serif;
+}
+/*new industry file*/
+button.enroll{
+   background-color: #E7332B;
+   color: #fff;
+   padding: 10px 28px;
+   border: none;
+   border-radius: 30px;
+}
+.details p{
+  font-size: 12px;
+  line-height: 4px;
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+p.small{
+  font-size: 6px;
+  text-align: center;
+  line-height: 8px;
+}
+button.now{
+   background-color: #E7332B;
+   color: #fff;
+   padding: 10px 28px;
+   margin-top: 10%;
+   margin-bottom:10%;
+   border: none;
+   border-radius: 30px;
+}
+a.read{
+  color: green;
+  text-decoration: underline;
+}
+.right p{
+  font-size: 10px;
+  text-align: right;
+}
+section.good{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
