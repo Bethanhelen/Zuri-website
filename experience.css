@@ -172,22 +172,58 @@ div.line2{
 }
 
 /* styling Impact */
-.impact-section1 h3{
+.impact-details h3{
   margin: 0% 0% 0% 10%;
   padding: 10% 0% 0% 0%;
 }
-.impact-section1 p{
-  font-size: 10px;
+.impact-details p{
+  font-size: 14px;
   font-weight: bold;
   margin-left: 10%;
+  line-height: 16px;
+  padding-top: 5px;
 }
 p.country{
-  font-size: 8px;
+  font-size: 12px;
   color: #585858;
   margin-left: 10%;
 }
 .impact-section1{
     background-image: url(https://talent.zuri.team/static/media/bgsection2.063bd869082548bafa74.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.impact-section1{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
+  flex-wrap: wrap;
+  height: 600px;
+}
+.impact-details{
+  width: 50%;
+}
+.faces img{
+  display: flex;
+  justify-content: flex-end;
+}
+.countries{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 8%;
+}
+.countries img{
+  background-color: #fff;
+  padding: 10px 12px;
+}
+.countries .ger, .eng, .ind, .nig, .usa{
+  border-radius: 5px;
+  margin: 10px 10px;
 }
 /* Styling Why us */
 .talent-skills,
@@ -247,7 +283,12 @@ span{
 }
 /*why hire*/
 #why-us{
-background-image: url(https://talent.zuri.team/static/media/bgsection2.063bd869082548bafa74.png);
+background-color: #fdf3f2;
+}
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .why-hire{
   text-align: center;
@@ -256,19 +297,41 @@ background-image: url(https://talent.zuri.team/static/media/bgsection2.063bd8690
 .why-us-sub1,.why-us-sub2,.why-us-sub3,.why-us-sub4,.why-us-sub5{
   background-color: #fff;
   margin: 20px 20px;
+  width: 70%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0 0 15px 0;
 }
-.why-us-sub1 p,.why-us-sub2 p,.why-us-sub3 p,.why-us-sub4 p,.why-us-sub5 p{
+.why-us-sub1:hover, .why-us-sub2:hover, .why-us-sub3:hover, .why-us-sub4:hover, .why-us-sub5:hover{
+  background-color: #000;
+}
+.why-us-sub1 p:hover, .why-us-sub2 p:hover, .why-us-sub3 p:hover, .why-us-sub4 p:hover, .why-us-sub5 p:hover{
+  color: #fff;
+}
+.why-us-sub1 p,.why-us-sub2 p{
   text-align: center;
   color: #585858;
-  padding: 30px;
   font-size: 10px;
+  width: 70%;
+padding: 10px 5px;
 }
-.why-us-sub1 img,.why-us-sub2 img,.why-us-sub3 img,.why-us-sub4 img,.why-us-sub5 img{
+.why-us-section2 .why-us-sub3 p{
+text-align: center;
+  color: #585858;
+  font-size: 10px;
+  width: 70%;
+padding: 10px 5px;
+}
+.why-us-sub1 img,.why-us-sub2 img{
   position: relative;
-  top: 15px;
-  left: 35%;
 }
-.why-us-section1, .why-us-section2{
+.why-us-sub3 img,.why-us-sub4 img,.why-us-sub5 img {
+position: relative;
+}
+.why-us-section1, .why-us-section2, .why-us-section4{
   display: flex;
   align-items: center;
   justify-content: center;
