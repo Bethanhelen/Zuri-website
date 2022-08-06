@@ -25,7 +25,7 @@ a:hover{
    max-width: 1440px !important;
 }
 
-.my-container {
+.mycontainer {
    max-width: 1240px !important;
 }
 
@@ -40,7 +40,7 @@ a:hover{
    margin: auto;
 }
 
-.container {
+.mycontainer {
    height: 800px;
    background-image: url("../img/hero-bg.svg");
    background-size: cover;
@@ -241,23 +241,7 @@ footer hr {
    padding-bottom: 97px;
 }
 
-/*experience page*/
-header{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   margin: 30px 30px;
-}
-header img{
-   margin: 30px 30px;
-}
-header nav a{
-   padding: 0px 15px;
-}
-header nav a.active{
-   background-color: #E7332B;
-   color: #fff;
-}
+
 
 @media (max-width: 768px) {
 
