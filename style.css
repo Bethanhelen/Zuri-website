@@ -27,6 +27,7 @@ a:hover{
 
 .mycontainer {
    max-width: 1240px !important;
+   margin: auto;
 }
 
 .image {
