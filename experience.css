@@ -283,7 +283,7 @@ span{
 }
 /*why hire*/
 #why-us{
-background-color: #fdf3f2;
+background-color: rgb(255, 248, 229);
 }
 .card{
   display: flex;
@@ -311,7 +311,7 @@ background-color: #fdf3f2;
 .why-us-sub1 p:hover, .why-us-sub2 p:hover, .why-us-sub3 p:hover, .why-us-sub4 p:hover, .why-us-sub5 p:hover{
   color: #fff;
 }
-.why-us-sub1 p,.why-us-sub2 p{
+.why-us-sub1 p,.why-us-sub2 p, .why-us-sub3 p, .why-us-sub4 p, .why-us-sub5 p{
   text-align: center;
   color: #585858;
   font-size: 10px;
