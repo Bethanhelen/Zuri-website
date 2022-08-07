@@ -7,9 +7,14 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-font-family: Averta, sans-serif;
+    font-family: Averta, sans-serif;
+    
 }
 /* styling the header */
+body{
+  width: 1400px;
+}
+
 header{
     display:flex;
     flex-direction: column;
@@ -20,6 +25,7 @@ header{
     background-color: #fff;
     top: 0px;
     padding-top: 5px;
+    margin-bottom: 20px;
 }
 .header-contents{
     margin: auto;
@@ -55,39 +61,42 @@ color: #585858;
     text-decoration:none;
 }
 .header-contents ul a:hover{
-    border-bottom: 3px solid #e7332b;
+    background-color: #e7e2e2;
+    padding: 15px 4px;
+    transition: 0.5s;
 }
 .hire-button-header button{
     background-color: #e7332b;
-    padding: 11px 35px;
+    padding: 11px 45px;
     border-radius: 0 0 8px 0;
     border: 0px;
     color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
 }
 nav ul a.active{
   border-bottom: 2px solid #e7332b;
+  padding-bottom: 15px;
 }
 
 /* styling the home */
 #home{
-    padding-top: 220px;
+    padding-top: 150px;
     display: block;
     max-width: 1440px;
     width:80%;
     margin: auto;
 }
 .home-container{
-    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
 }
 .home-contentBox1{
     box-sizing: border-box;
-    margin: 0px;
+    margin-top: 100px;
     flex-direction: row;
-    align-items: center;
+    width: 50%;
 }
 .home-content1{
     display: block;
@@ -103,19 +112,16 @@ nav ul a.active{
     font-weight: 800;
     font-size: 40px;
     line-height: 49px;
-    text-align: center;
 }
 div.line1{
     display: block;
-    margin-left: 610px;
+    margin-left: 410px;
     margin-top: -55px;
 }
 .home-content1 p.home-info{
     display:block;
     padding-top: 15px;
-    margin: auto;
-    text-align: center;
-    width: 70%;
+    width: 100%;
     font-style: normal;
     font-size: 19px;
     font-weight: 400;
@@ -125,8 +131,6 @@ div.line1{
 .home-content2{
     margin-top: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 button.hire-button{
     background-color: #e7332b;
@@ -134,17 +138,20 @@ button.hire-button{
     border-radius: 0 0 8px 0;
     color: #fff;
     margin-right: 15px;
-    padding: 11px 35px;
+    padding: 11px 55px;
     line-height: 19px;
-
+    cursor: pointer;
+    letter-spacing: 1px;
 }
 button.pool-button{
     background-color: #585858;
     border: none;
     border-radius: 0 0 8px 0;
     color: #fff;
-    padding: 11px 35px;
+    padding: 11px 40px;
     line-height: 19px;
+    cursor: pointer;
+    letter-spacing: 1px;
 }
 .home-contentBox2{
     display: block;
@@ -153,7 +160,7 @@ button.pool-button{
 }
 .home-image{
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
 }
 .image1{
     width: 70%;
@@ -161,32 +168,36 @@ button.pool-button{
     padding-top: 60px;
 }
 div.line2{
-    margin-top: -172px;
+    margin-top: -90px;
     position: absolute;
-    right: 0;
+    right: -50px;
     mix-blend-mode: soft-light;
     display:block;
 }
-.line-2{
+.line2{
     width:250px;
 }
 
 /* styling Impact */
-.impact-details h3{
+
+.impact-details h1{
   margin: 0% 0% 0% 10%;
   padding: 10% 0% 0% 0%;
+  font-size: 45px;
 }
 .impact-details p{
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
   margin-left: 10%;
   line-height: 16px;
   padding-top: 5px;
 }
 p.country{
-  font-size: 12px;
+  font-size: 18px;
   color: #585858;
   margin-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .impact-section1{
     background-image: url(https://talent.zuri.team/static/media/bgsection2.063bd869082548bafa74.png);
@@ -208,7 +219,7 @@ p.country{
 }
 .faces img{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
 }
 .countries{
   display: flex;
@@ -230,12 +241,14 @@ p.country{
 .talent-work{
   margin-left: 10%;
 }
-.talent-skills h3{
+.talent-skills h1{
   margin-top: 10%;
   margin-bottom: 2%;
+  font-size: 40px;
 }
-.talent-work h3{
+.talent-work h1{
   margin-bottom: 2%;
+  font-size: 40px;
 }
 .talent-skills ul, .talent-work ul{
   list-style-type: none;
@@ -246,11 +259,18 @@ p.country{
   display: inline-block;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 12px;
+  font-size: 18px;
   color: #585858;
-  padding: 10px 15px;
+  padding: 15px 30px;
   background: #fff;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 5px;
+margin-right: 15px;
+}
+.talent-skills ul li:hover,
+.talent-work ul li:hover{
+  transform: translateY(-15px);
+  transition: 0.5s;
 }
 span{
   color: #e7332b;
@@ -261,25 +281,31 @@ span{
     border-radius: 0 0 8px 0;
     color: #fff;
     margin-right: 15px;
-    padding: 11px 35px;
+    padding: 11px 55px;
     line-height: 19px;
-
+    letter-spacing: 1px;
 }
 .footer-pool{
     background-color: #585858;
     border: none;
     border-radius: 0 0 8px 0;
     color: #fff;
-    padding: 11px 35px;
+    padding: 11px 40px;
     line-height: 19px;
+    letter-spacing: 1px;
 }
 .why-us-section3{
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 20%;
     flex-wrap: wrap;
+}
+button.hire-button:hover, button.pool-button:hover, .footer-hire:hover, .footer-pool:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 3px -10px, rgba(0, 0, 0, 0.3) 0px 3px 3px;
+  transition: 0.5s;
+  cursor: pointer;
 }
 /*why hire*/
 #why-us{
@@ -289,10 +315,12 @@ background-color: rgb(255, 248, 229);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 50px;
 }
 .why-hire{
   text-align: center;
   padding: 5% 0%;
+  font-size: 40px;
 }
 .why-us-sub1,.why-us-sub2,.why-us-sub3,.why-us-sub4,.why-us-sub5{
   background-color: #fff;
@@ -307,6 +335,7 @@ background-color: rgb(255, 248, 229);
 }
 .why-us-sub1:hover, .why-us-sub2:hover, .why-us-sub3:hover, .why-us-sub4:hover, .why-us-sub5:hover{
   background-color: #000;
+  color: #fff;
 }
 .why-us-sub1 p:hover, .why-us-sub2 p:hover, .why-us-sub3 p:hover, .why-us-sub4 p:hover, .why-us-sub5 p:hover{
   color: #fff;
@@ -314,15 +343,15 @@ background-color: rgb(255, 248, 229);
 .why-us-sub1 p,.why-us-sub2 p, .why-us-sub3 p, .why-us-sub4 p, .why-us-sub5 p{
   text-align: center;
   color: #585858;
-  font-size: 10px;
+  font-size: 18px;
   width: 70%;
-padding: 10px 5px;
+  padding: 10px 5px;
 }
 .why-us-section2 .why-us-sub3 p{
-text-align: center;
+  text-align: center;
   color: #585858;
   font-size: 10px;
-  width: 70%;
+  width: 100%;
 padding: 10px 5px;
 }
 .why-us-sub1 img,.why-us-sub2 img{
@@ -336,25 +365,38 @@ position: relative;
   align-items: center;
   justify-content: center;
 }
+.why-us-sub4, .why-us-sub5{
+  width: 400px;
+}
 /* styling the footer */
 footer{
 background-color: #000;
     padding-top: 80px;
     display: block;
+    height: 200px;
+    
 }
 .footer-container{
-    width: 92%;
-    margin: auto;
+    width: 90%;
     display:block;
+    margin-left: 50px;
 }
 .footer-content1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 15px;
 }
 div.social-media{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+}
+.social-media a .twit{
+  width: 50px;
+}
+.social-media a .facebook, .social-media a .linkd, .social-media a .youtube{
+  width: 50px;
 }
 .footer-content2{
     padding-top: 20px;
