@@ -332,9 +332,9 @@ a.read{
   width: 40%;
 }
 .second img{
-  width: 130%;
+  width: 120%;
   margin-top: 15%;
-
+  padding-right: 70px;
 }
 .first{
   display: flex;
@@ -396,4 +396,109 @@ p.week{
 .games button p{
   width: 100%;
   font-size: 16px;
+}
+.stack-container{
+  display: flex;
+}
+.prog{
+  padding-left: 70px;
+  padding-top: 70px;
+  width: 50%;
+}
+p.programs{
+  color: #E7332B;
+  font-size: 24px;
+}
+p.list{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.fold{
+  width: 10%;
+ position: relative;
+ margin-bottom: 10%;
+}
+.fold img{
+  width: 100%;
+  position: absolute;
+  left: 600px;
+}
+.new-card{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.card{
+  max-width: 33%;
+  padding-left: 24px;
+  padding-top: 24px;
+  transition: 0.3s;
+}
+.card:hover{
+  transform: translateY(-15px);
+  cursor: pointer;
+}
+.js1, .js2, .js3, .js4, .js5, .js6 {
+  background: #fff;
+  border-radius: 41px;
+  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  height: 350px;
+  padding: 40px;
+}
+.js1 .front, .js2 .back, .js3 .product, .js4 .devops, .js5 .fullstack, .js6 .framework{
+    color: #1b1a20;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+    padding-bottom: 20px;
+}
+.js-images{
+  display: flex;
+  align-items: left;
+}
+.js1 .js-images img, .js5 .js-images img, .js2 .js-images img{
+  padding-right: 14px;
+  width: 60px;
+}
+.js4 .js-images img, .js6 .js-images img{
+  padding-right: 14px;
+  width: 90px;
+}
+.js3 .js-images img{
+  padding-right: 14px;
+  width: 70px;
+}
+.js1 .front-details, .js2 .back-details, .js3 .product-details, .js4 .devops-details, .js5 .fullstack-details, .js6 .framework-details{
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 140%;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    color: #1b1a20;
+}
+.blink{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.blink a{
+  display: flex;
+  margin: 40px 0px;
+  text-decoration: none;
+  background-color: #E7332B;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 35px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 30px;
+}
+hr{
+  border: 0px 0px thin;
+  border-style:solid ;
+  border-color: rgba(0, 0, 0, 0.12);
 }
